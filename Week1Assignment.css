@@ -1,0 +1,189 @@
+
+body{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+div[id="Header"]{
+    border: 1px solid #35424A;
+    background-color: #35424A;
+    padding-top: 20px;
+    
+
+
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    
+}
+div[id="SubHeader"]{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+div[id="Header1"] > h1{
+    width: 800px;
+    color: white;
+}
+div[id="Header1"] > h1::before{
+    content: "Agency ";
+    color: #ffc600;
+}
+div[id="Header2"]{
+    width: 250px;
+    height: 100%;
+    padding: 31px;
+
+    display: flex;
+    justify-content: space-between;
+}
+div[id="Header2"] > a{
+    color: white;
+    text-decoration: none;
+
+}
+
+#YellowSeperator{
+    width: 100%;
+    height: 3px;
+    background-color: #ffc600;
+    
+    position: sticky;
+    top: 102px;
+}
+
+div[id="Affordable"]{
+    min-width: 1500px;
+    height: 300px;
+    background-image: url("2233971-images/images/showcase.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+div[id="Affordable"] > h1{
+    font-size: 55px;
+    margin: 0px;
+}
+div[id="Affordable"] > p{
+    font-size: 20px;
+    width: 1200px;
+    text-align: center;
+    margin: 0px;
+
+}
+
+div[id="53Brush"]{
+    width: 1500px;
+    margin-top: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+p[id="Html5"]{
+    width: 400px;
+ }
+p[id="Css3"]{
+    width: 330px;
+} 
+p[id="Graphic"]{
+    width: 400px
+}
+
+#AboutWhat{
+    margin-top: 20px;
+    /* height: 750px; */
+    margin-bottom: 50px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+div[id="AboutUs"] > p{
+    width: 835px;
+}
+div[id="What"]{
+    /* height: 240px; */
+    background-color: #35424A;
+    color: white;
+    padding: 10px;
+}
+p[id="What"]{
+    width: 250px;  
+}
+
+
+#serGet{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+#services{
+    max-width: 835px;
+
+    display: grid;
+    grid-gap: 5px;
+
+}
+#S1{
+    border: 1px solid #e6e6e6;
+    background-color: #e6e6e6;
+    padding: 5px;
+}
+#S2{
+    border: 1px solid #e6e6e6;
+    background-color: #e6e6e6;
+    padding: 5px;
+}
+#S3{
+    border: 1px solid #e6e6e6;
+    background-color: #e6e6e6;
+    padding: 5px;
+}
+   
+   
+#Get{
+    width: 250px;
+    height: 250px;
+    background-color: #35424A;
+    color: white;
+    padding: 10px;
+
+}
+input{
+    width: 245px;
+}
+#i3{
+    height: 40px
+}
+#i3::placeholder{
+    padding-top: 0px;
+}
+button{
+    width: 60px;
+    height: 30px;
+    background-color: #ffc600;
+    color: white;
+    box-shadow: none;
+}
+
+#Footer{
+    width: 100%;
+    height: 80px;
+    color: white;
+    background-color: #ffc600;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;  
+    bottom: 0px; 
+}
